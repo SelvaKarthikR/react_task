@@ -1,0 +1,22 @@
+.networkContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.networkFooter {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.network-add-btn {
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  background-color: rgb(14, 164, 14);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}

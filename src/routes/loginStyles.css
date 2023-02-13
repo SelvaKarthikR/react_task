@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.alert {
+  display: flex;
+  background-color: rgb(255, 255, 100);
+  color: black;
+  width: 100%;
+  /* padding: 0.5rem; */
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+h4 {
+  margin-left: 0.5rem;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  height: 2rem;
+  padding: 0.2rem;
+}
+
+.input {
+  margin-top: 0.5rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 0.3rem;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: max-content;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}

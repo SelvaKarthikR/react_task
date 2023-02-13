@@ -1,0 +1,60 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+}
+
+table th {
+  position: sticky;
+  top: 0;
+}
+
+tbody {
+  height: fit-content;
+  overflow-y: scroll;
+}
+
+tr {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  height: 20px;
+}
+
+th,
+td {
+  padding: 0.5em;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+.btn-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-btn {
+  background-color: rgb(70, 100, 232);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.del-btn {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
